@@ -1,4 +1,4 @@
-# OpenRehab-TBI:
+# OpenRehab-TBI
 OpenRehab Reference Guide for Brain Injury Medicine Resident Rotations
 
 1. This web app uses the [Framework7](https://framework7.io) library but does not need to be installed to run this webapp. It is recommended that you download it to see code examples and understand its features.
