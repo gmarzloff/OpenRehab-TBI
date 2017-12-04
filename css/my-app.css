@@ -1,0 +1,78 @@
+/* Custom CSS classes */
+
+/* ROOT VIEW */
+.no-top-margin {
+	margin: 0 !important;
+}
+
+.indexFooter {
+	text-align: center;
+}
+.sinailogo{
+	width: 200px;
+}
+
+/* PAROXYSMAL AUTONOMIC INSTABILITY */
+span.inlineHeader {
+	font-weight: bold;
+}
+
+/* GLASGOW COMA SCALE */
+
+#gcsclassification tr:nth-child(1) td {
+	text-align: center;
+	font-weight: bold;
+}
+.gcs-mini-slider.swiper-container {
+	height: initial;
+	border: 1px solid #ccc;
+	background-color: #fff;
+}
+
+.gcs-mini-slider .swiper-slide {
+	padding-bottom: 25px;
+	border: none;
+}
+
+.normal-word-wrap {
+	white-space: normal;
+	text-transform: none;
+	overflow: visible;
+}
+
+.swiper-slide span {
+  	text-align:center;
+  	display:block;
+  	margin: 15px;
+  	font-size:14px;
+}
+
+/* STROKE REHABILITATION */
+
+img.swallow {
+	width: 100%;
+	display: block
+	box-shadow: 5px 5px 15px #888888;
+}
+
+#aphasia_label {
+	font-weight: bold;
+	font-weight: 1.2em;
+	padding-left: 60px;
+}
+
+.subheadrow {
+	text-align: center;
+	font-style: italic;
+}
+
+
+/* Fix for chrome not supporting slider */
+.range-slider input[type="range"]::-webkit-slider-thumb {
+	border: 2px solid;
+	border-color: silver;
+	background-color: white;
+	border-radius: 50%;
+	box-shadow 0 2px 4px rgba(0,0,0,0.4);
+}
+

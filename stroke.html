@@ -1,0 +1,400 @@
+
+<!-- We don't need full layout here, because this page will be parsed with Ajax-->
+<!-- Top Navbar-->
+
+<!-- Dynamic navbar for iOS theme -->
+<div class="navbar">
+    <div class="navbar-inner">
+        <div class="left sliding">
+            <a href="#" class="back">
+                <i class="icon icon-back"></i><span>Back</span>
+            </a>
+        </div>
+        <div class="center sliding">Stroke Rehabilitation</div>
+    </div>
+</div>
+
+
+<div class="pages">
+  <!-- Page, data-page contains page name-->
+  <div data-page="stroke" class="page">
+
+    <!-- Scrollable page content-->
+    <div class="page-content">
+
+      <div class="list-block accordion-list">       
+        <ul>
+          <li class="accordion-item">
+            <a href="#" class="item-content item-link">
+              <div class="item-inner">
+                <div class="item-title">Recovery</div>
+              </div>
+            </a>
+        
+            <div class="accordion-item-content">
+              <div class="content-block">
+                <div class="content-block-inner">
+                  <h3>Brunnstrom's Order of Recovery</h3>
+                  
+                  <div class="data-table">
+                    <table>
+                      <tbody>
+                        <tr>
+                          <td>1</td>
+                          <td>Flaccidity (immediately after onset): no voluntary movement initiated</td>
+                        </tr>
+
+                        <tr>
+                          <td>2</td>
+                          <td>Spasticity: basic synergy patterns appear, minimal voluntary movement possible</td>
+                        </tr>
+
+                        <tr>
+                          <td>3</td>
+                          <td>Voluntary control over synergies: with increase in spasticity</td>
+                        </tr>
+
+                        <tr>
+                          <td>4</td>
+                          <td>Some movement patterns out of synergy can be mastered: synergy still predominates, decrease in spasticity</td>
+                        </tr>
+
+                        <tr>
+                          <td>5</td>
+                          <td>If progress continues, more complex movement combinations can be learned as basic synergies lose their dominance: more decrease in spasticity can be seen</td>
+                        </tr>
+
+                        <tr>
+                          <td>6</td>
+                          <td>Spasticity disappears: more individual joint movements and normal coordination </td>
+                        </tr>
+
+                        <tr>
+                          <td>7</td>
+                          <td>Normal function is restored</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+                  <h3>Other Predictors of Revovery</h3>
+                  <p>Severity of UE weakness at onset (complete arm paralysis at onset has poor prognosis for recovery of useful hand function)</p>
+                  <p>Timing of hand movement return (some motor recovery of hand by 4 weeks has 70% chance of making full/good recovery)</p>
+                  <p>Poor prognosis: no measurable grasp by 4 weeks, severe proximal spasticity, prolonged flaccidity, late return of tapping response (facilitation)</p>
+
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="accordion-item">
+            <a href="#" class="item-content item-link">
+              <div class="item-inner">
+                <div class="item-title">Spasticity</div>
+              </div>
+            </a>
+        
+            <div class="accordion-item-content">
+              <div class="content-block">
+                <div class="content-block-inner">
+                  <p>Abnormal <span style="font-style: italic">velocity</span>-dependent resistance to passive movement of involved muscles at rest and posturing during ambulation or with noxious stimuli</p>
+
+                  <h3>Treatments</h3>
+
+                  <div class="data-table">
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td rowspan=5>Non-invasive</td>
+                            <td>stretching</td>
+                          </tr>
+                          <tr>
+                            <td>splints, orthoses</td>
+                          </tr>
+                          <tr>
+                            <td>serial casting</td>
+                          </tr>
+                          <tr>
+                            <td>electrical stimulation</td>
+                          </tr>
+                          <tr>
+                            <td>cold modalities</td>
+                          </tr>
+
+                          <tr>
+                            <td rowspan=2>Chemo-<br/>neurolysis</td>
+                            <td>Botulinum toxin<br />
+                            (useful in focal control of spasticity like at wrist and finger flexors or ankle invertors)</td>
+                          </tr>
+                          <tr>
+                            <td>Phenol/alcohol<br />
+                            (rarely used, limited by adverse effects like pain with injection, post-injection dysesthesia/chronic pain)</td>
+                          </tr>
+
+                          <tr>
+                            <td rowspan=2>Baclofen</td>
+                            <td>Oral</td>
+                          </tr>
+                          <tr>
+                            <td>Intrathecal baclofen pump:<br />
+                            some evidence that with physical therapy it can help improve walking speed/functional mobility in post-stroke spastic hemiplegia</td>
+                          </tr>
+
+                          <tr>
+                            <td>Surgery</td>
+                            <td>may be useful in selected cases to improve function, hygiene, pain</td>
+                          </tr>
+
+                        </tbody>
+                      </table>
+                    </div>
+
+                    <p> Note: side effects of medications (baclofen, benzodiazepines, clonidine, tizanidine) usually limit their usefulness in stroke patients</p>
+                  </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="accordion-item">
+            <a href="#" class="item-content item-link">
+              <div class="item-inner">
+                <div class="item-title">Dysphagia</div>
+              </div>
+            </a>
+          
+            <div class="accordion-item-content">
+              <div class="content-block">
+                <div class="content-block-inner">
+                  <h3>Diagnostics</h3>
+
+                  <div class="buttons-row">
+                    <!-- Link to 1st tab, active -->
+                    <a href="#tab1" class="button active tab-link">Bedside</a>
+                    <!-- Link to 2nd tab -->
+                    <a href="#tab2" class="button tab-link">VFSS (MBS)</a>
+                    <!-- Link to 3rd tab -->
+                    <a href="#tab3" class="button tab-link">FEES</a>
+                  </div>
+
+                  <div class="tabs-swipeable-wrap">
+                    <!-- Tabs, tabs wrapper -->
+                    <div class="tabs">
+                      <!-- Tab 1, active by default -->
+                      <div id="tab1" class="tab active">
+                        <div class="content-block">
+                          <h3>Bedside Swallow Evaluation (BSE)</h3>
+                          
+                          <img class="swallow" src="img/bedside_swallow.jpg" />
+
+                          <p>minimally invasive, looking for overt cough or  difficulty during swallowing trials, may evaluate gag reflex/pharyngeal sensation</p>
+
+                          <p>Aspiration is missed on BSE 40-60% of the time (silent aspiration)</p>
+
+                          <p>Predictors on BSE: abnormal cough, cough after swallow, dysphonia, dysarthria, abnormal gag reflex, voice change after swallow </p>
+                        </div>
+                      </div>
+                      <!-- Tab 2 -->
+                      <div id="tab2" class="tab">
+                        <div class="content-block">
+                          
+                          <h3>Videofluoroscopic swallow study (VFSS)</h3>
+
+                          <img class="swallow" src="img/vfss.png" />
+
+                          <p>aka modified barium swallow (MBS), gold standard for evaluation and treatment of dysphagia</p>
+
+                          <p>Different amounts and consistencies of solids/liquids mixed with barium are swallowed while fluoroscopically visualizing the patient’s swallowing anatomy</p>
+
+                          <p>Aspiration can be reliably diagnosed on a VFSS</p>
+
+                          <p>Predictors of aspiration on VFSS: delayed initiation of swallow reflex or pharyngeal peristalsis</p>
+
+                        </div>
+                      </div>
+                      <!-- Tab 3 -->
+                      <div id="tab3" class="tab">
+                        <div class="content-block">
+                          <h3>Fiberoptic endoscopic evaluation of swallowing (FEES)</h3>
+
+                          <img class="swallow" src="img/fees.jpg" />
+
+                          <p>a more comprehensive evaluation of the pharyngeal stage of swallowing</p>
+                          
+                          <p>Observes natural bolus flow and containment vs potential bolus obstruction; reaction to presence of residue, penetration, aspiration; effectiveness of cough</p>
+                        
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="accordion-item">
+            <a href="#" class="item-content item-link">
+              <div class="item-inner">
+                <div class="item-title">Aphasia</div>
+              </div>
+            </a>
+        
+            <div class="accordion-item-content">
+              <div class="content-block">
+
+
+                  <div class="data-table">
+                    <table>
+                      <thead>
+                        <th>Speech Component</th>
+                        <th>Impaired?</th>
+                      </thead>
+                    <tbody>
+
+                      <tr>
+                        <td>Fluency</td>
+                        <td>
+                          <div class="item-content">
+                            <div class="item-inner">
+                              <div class="item-input">
+                                <label class="label-switch">
+                                  <input type="checkbox" id="fluency_switch">
+                                  <div class="checkbox"></div>
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td>Comprehension</td>
+                        <td>
+                          <div class="item-content">
+                            <div class="item-inner">
+                              <div class="item-input">
+                                <label class="label-switch">
+                                  <input type="checkbox" id="comprehension_switch">
+                                  <div class="checkbox"></div>
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                        </td>
+                      </tr> 
+
+                      <tr>
+                        <td>Repetition</td>
+                        <td>
+                          <div class="item-content">
+                            <div class="item-inner">
+                              <div class="item-input">
+                                <label class="label-switch">
+                                  <input type="checkbox" id="repetition_switch">
+                                  <div class="checkbox"></div>
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td colspan=2>This describes:<span id="aphasia_label">Global</span></td>
+                      </tr>
+                      
+                    </tbody>
+                    </table>
+                  
+
+                  <h3>Aphasias List</h3>
+
+                  <div class="data-table">
+                    <table>
+                      <thead>
+                        <th>Type</th>
+                        <th>Description</th>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Anomic</td>
+                          <td>temporoparietal injury, angular gyrus; may also see alexia or agraphia</td>
+                        </tr>
+                        <tr>
+                          <td>Conduction</td>
+                          <td>injury to parietal operculum (arcuate fasciculus), insula or deep to supramarginal gyrus (usually left side); literal paraphasias, targeting of words</td>
+                        </tr>
+                        <tr>
+                          <td>Transcortical sensory</td>
+                          <td>watershed lesion isolating Broca’s/Wernicke’s areas from posterior brain, angular gyrus or posterior-inferior temporal lobe; echolalia, neologisms</td>
+                        </tr>
+                        <tr>
+                          <td>Wernicke’s</td>
+                          <td>posterior superior temporal gyrus of dominant (usually left) hemisphere; marked paraphasias, neologisms, alexia and agraphia</td>
+                        </tr>
+
+                        <tr>
+                          <td>Transcortical motor</td>
+                          <td>frontal lobe, anterior/superior to Broca’s area or in the subcortical area deep to Broca’s area; reduced rate, initiation, organization of speech</td>
+                        </tr>
+
+                        <tr>
+                          <td>Broca’s</td>
+                          <td>posterior-inferior frontal lobe of dominant (usually left) hemisphere; telegraphic speech, paraphasias, articulatory errors or struggling</td>
+                        </tr>
+                        <tr>
+                          <td>Mixed transcortical<br />
+                          <td>aka. isolation aphasia, lesions in borders of frontal, parietal, and temporal areas; decreased rate and initiation of speech, echolalia</td>
+                        </tr>
+
+                        <tr>
+                          <td>Global</td>
+                          <td>various sizes and locations but usually involves left MCA distribution; ranges from mutism to total repetitive jargon or neologistic output</td>
+                        </tr>
+                        
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+
+      <!-- REFERENCES --> 
+      <div class="list-block accordion-list">       
+        <ul>
+          <li class="accordion-item">
+            <a href="#" class="item-content item-link">
+              <div class="item-inner">
+                <div class="item-title">References</div>
+              </div>
+            </a>
+            
+              
+
+            <div class="accordion-item-content">
+              <div class="content-block">
+
+                <p>Zorowitz RD, Baerga E, Cuccurullo SJ. Physical Medicine and Rehabilitation Board Review. 3rd ed. New York, NY: Demos Medical; 2015. Chapter 1, Stroke. P.41-95.</p>
+
+                <p>Harvey RL, Roth EJ, Yu DT, Celnik P, Braddom RL. Physical Medicine and Rehabilitation. 4th ed. Philadelphia, PA: W.B. Saunders Company; 2011. Chapter 50, Stroke Syndromes. P.1177-1222.</p>
+
+                <p>Twitchell TE. The restoration of motor function following hemiplegia in man. Brain. 1951;74:443–480.</p>
+
+                <p>Brunnstrom S. Motor testing procedures in hemiplegia: based on sequential recovery stages. Phys Ther. 1966;46:357–375.</p>
+
+                <p>Zhang J, Zhou Y, Wei N, Yang B, Wang A, Zhou H, et al. (2016) Laryngeal Elevation Velocity and Aspiration in Acute Ischemic Stroke Patients. PLoS ONE 11(9): e0162257. https://doi.org/10.1371/journal.pone.0162257</p>
+
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!-- END REFERENCES -->
+
+    </div>
+  </div>
+</div>
